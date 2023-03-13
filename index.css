@@ -1,0 +1,207 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sky{
+    background-image: url(./images/viber_image_2023-02-19_17-46-11-923.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0;
+}
+.top ul {
+    word-spacing: 10px;
+    margin: 10px;
+    border-style: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    position: fixed;
+    background-color:  #d64aa5;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-right: 35px; 
+    border-radius: 10px;
+}
+.top ul a:hover{
+    color:#0088a9
+}
+.top li{
+    display: inline;
+    color: black;
+    padding: 5px;
+    /* position: fixed; */
+}
+/* .form{
+    size: 80px 50px ;
+    background-color: rgb(168, 231, 252);
+    margin-top: 250px;
+    margin-bottom: 100px;
+    margin-left: 900px;
+    width: 250px;
+    height: 320px;
+    background: linear-gradient();
+    position: absolute;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    font-size: 40px;
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.form input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.form button{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+} */
+/* About us */
+.para{
+    text-align: justify;
+    font-size: 40px;
+}
+img{
+    width: 20%;
+    border-radius: 30px;
+    margin-top: 60px;
+   word-spacing: 50px;
+}
+ img:hover{
+   transform: scale(1.5);
+}
+/* Contact us */
+.con{
+   background-color: goldenrod;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Pacifico', cursive;
+}
+.con h1{
+    font-size: 50px;
+}
+.con p{
+    font-size: 30px;
+}
+/* course detail */
+.fee{
+    background-color: chocolate;
+}
+.note{
+    padding-top: 80px;
+    /* padding-bottom: 50px; */
+    text-align: center;
+    /* background-color: #c29d22; */
+
+} 
+.abc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.abc img{
+    width: 300px;
+}
+.abc h3 ,span{
+    color: white;
+}
+.cou tr{
+    text-align: left;
+    
+}
+.cou th{
+padding: 20px 15px;
+}
+.cou td{
+    padding: 20px 15px;
+}
+/* course schdule */
+.schduleHeading {
+    margin-left:50px;
+    background-color: darkslategray;
+}
+.schdule{
+    padding-top: 80px;
+    margin-left: 30%;
+    color: coral;
+}
+.coursesch{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.coursesch table{
+    width:80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.coursesch thead{
+    color: white;
+    background-color: #0088a9;
+}
+.coursesch tr:nth-child(even){
+    background-color: #eeeeee;
+
+}
+.coursesch tr:hover{
+    background-color: cornflowerblue;
+}
+.coursesch th,tr,td{
+    padding: 10px;
+}
+/* sitemap */
+.site{
+    background-color: darkgoldenrod;
+    font-size: 30px;
+    margin-left: 0px;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+}
+/* Privacy */
+.topHeading{
+    padding-left: 50px;
+    background-color: #0088a9;
+}
+.privacy_policy{
+    height: 100%;
+    margin-left: 50px;
+    padding-top: 20px;
+    /* margin-top: 5px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.privacy_policy button{
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.privacy_policy p{
+    display: none;
+    justify-content: center;
+}
+.privacy_policy h1{
+    /* margin-top: 50px; */
+   padding-top: 50px;
+}
+/* .policy li{
+
+    display: inline;
+    font-size: 40px;
+} */
